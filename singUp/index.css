@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #494145;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #ff8c84;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin: 35px 0;
+}
+
+h1 {
+    padding: 10px 30px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+form input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+
+form button {
+    height: 30px;
+    padding: 0 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #fff;
+    background: black;
+    border: 1px solid;
+    border-color: black;
+    transition: color 0.5s, background 0.5s;
+}
+
+form button:hover {
+    background: #EADEDE;
+    color: black;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.inicia-sesion {
+    padding: 10px 30px;
+}
+
+@media (max-width: 1230px) and (min-width: 1030px) {
+    .container {
+        width: 25%;
+    }
+}
+
+@media (max-width: 1029px) and (min-width: 770px) {
+    .container {
+        width: 30%;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 620px){
+    .container {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        padding: 0 30%;
+    }
+}
+
+@media (max-width: 619px){
+    .container {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        padding: 0 15%;
+    }
+}
